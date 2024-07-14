@@ -12,7 +12,7 @@ export default function LogOut() {
 
     return (
         <>
-            <button onClick={LogOut} className="text-semibold text-md bg-green-500 rounded-lg text-white py-2 px-4 hover:bg-purple-950">Logout</button>
+            <button onClick={LogOut} className="text-semibold text-md hover:text-blue-500 px-4">Logout</button>
         </>
     )
 };

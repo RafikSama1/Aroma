@@ -28,7 +28,7 @@ export default function login(){
             <input className="border rounded-lg" type="email" onChange={(e)=>{setEmail(e.target.value)}}/>
             <label>PassWord</label>
             <input className="border rounded-lg"  type="password" onChange={(e)=>{setPassword(e.target.value)}}/>
-            <button>Submit</button>
+            <button className="py-2 px-4 rounded-lg bg-orange-300 text-white  mt-4">Submit</button>
             <div className="flex flex-col gap-1 my-2">
                 {error && <p className="text-sm text-red-500">{error}</p> }
             </div>
